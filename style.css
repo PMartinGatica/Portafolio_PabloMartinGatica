@@ -65,12 +65,39 @@ PORTAFOLIO  */
     max-width: 70%;
     height: auto;
 } 
-.acerca-de p{
+.acerca-de .foto .nombre{
     font-family: 'Open Sans', sans-serif;  
+    color: #545454;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+
 } 
-.acerca-de h2{
+.acerca-de .info .titulo{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5%;
+    color: #005385;
+    font-weight: 300;
+    font-size: 40px;
+} 
+.acerca-de .info .resumen{
+    letter-spacing: 1px;
+}
+.acerca-de .info .label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px;
+} 
+.acerca-de .info .progress{
+    background: #bbbbaaaa;
+    border-radius: 0;
+    height: 20px;
+} 
+.acerca-de .info .progress .progress-bar{
+    background: #3da5e2;
+    line-height:25px;
+    padding: 10px;
 } 
 
 /* media query */
