@@ -1,0 +1,127 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+header .logo h2
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    color: #777777;
+}
+
+header .logo .icono{
+    color: #bfbfbf;
+}
+
+header .menu .C1{background: #3da5e2;}
+header .menu .C2{background: #005385;}
+header .menu .C3{background: #003855;}
+
+header .menu .C1:hover {background: #1ba0ef;}
+header .menu .C2:hover {background: #00426a;}
+header .menu .C3:hover {background: #002d44;}
+
+/* 
+MAIN */
+
+/*
+PORTAFOLIO  */
+
+.portafolio{
+    border-top: 5px solid #3da5e2;
+    background: #ffffff;
+}
+
+.portafolio .titulo{
+    text-align: center;
+    color: #3da5e2;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.portafolio .galeria .contenedor-imagen{
+    max-height: 180px;
+    overflow: hidden;
+}
+.portafolio .galeria .contenedor-imagen a{
+    background: #3da5e2;
+    display: inline-block;
+}
+.portafolio .galeria .contenedor-imagen :hover img{
+    opacity: .3;
+}
+
+.modal-dialog{
+    max-width: 1000px;
+}
+
+.acerca-de img{
+    max-width: 70%;
+    height: auto;
+} 
+.acerca-de p{
+    font-family: 'Open Sans', sans-serif;  
+} 
+.acerca-de h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
+} 
+
+/* media query */
+/* dispositivo movil */
+@media screen and (max-width: 480px){
+    header .logo h2{
+        font-size: 20px;
+    }
+    header .logo p{
+        font-size: 12px;
+    }
+    header .logo .icono{
+        font-size: 20px;
+    }
+    header .menu .C1{background: #3da5e2;}
+    header .menu .C2{background: #005385;}
+    header .menu .C3{background: #003855;}
+    header .menu .C1:hover {background: #1ba0ef;}
+    header .menu .C2:hover {background: #00426a;}
+    header .menu .C3:hover {background: #002d44;}
+}
+
+/* Dispositivo md */
+
+@media screen and (max-width: 768px){
+}
+
+/* dispositivo lg */
+@media screen and (max-width: 992px){
+    .logo {
+        font-size: 76px;
+    }
+    header .menu{
+        min-height: 76px;
+    }
+    header .menu a{
+        width: 100%;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(1){order:1;}
+    .portafolio .galeria .contenedor-imagen:nth-child(2){order:3;}
+    .portafolio .galeria .contenedor-imagen:nth-child(3){order:6;}
+    .portafolio .galeria .contenedor-imagen:nth-child(4){order:2;}
+    .portafolio .galeria .contenedor-imagen:nth-child(5){order:5;}
+    .portafolio .galeria .contenedor-imagen:nth-child(6){order:4;}
+    .portafolio .galeria .contenedor-imagen:nth-child(7){order:7;}
+
+}
+/* dispositivo xl */
+@media screen and (max-width: 1200px){
+}
+
+/* dispositivo xxl */
+@media screen and (max-width: 1400px){}
