@@ -3,7 +3,7 @@ const imagenModal = document. getElementById('imagen-modal');
 
 imagenes.forEach ((imagen) => {
 imagen.addEventListener('click', () => {
-    const ruta = imagen.querySelector('img').src;
+    const ruta = imagen.querySelector('video').src;
     imagenModal.src = ruta;
 });        
 });

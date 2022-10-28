@@ -203,7 +203,7 @@ PORTAFOLIO  */
 /* dispositivo lg */
 @media screen and (max-width: 992px){
     .logo {
-        font-size: 76px;
+        height: 76px;
     }
     header .menu{
         min-height: 76px;
