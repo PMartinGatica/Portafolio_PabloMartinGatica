@@ -100,24 +100,99 @@ PORTAFOLIO  */
     padding: 10px;
 } 
 
+/* Contacto */
+.contacto .titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #005385;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contacto .formulario .form-group{
+    margin-bottom: 5%;
+}
+.contacto{
+    border-top: 1px solid #cbcbcbcb;
+    border-bottom: 1px solid #cbcbcbcb;
+}
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea{
+    padding: 15px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.contacto .formulario button{
+    background: #3da5e2;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+.contacto .formulario button:hover{
+    background: #1ba0ef;
+    color: #000000
+}
+
+/* Footer */
+.redes-sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.redes-sociales .icono{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    transition: all .9s ease-in;
+}
+.redes-sociales .icono svg{
+    width: 40px;
+    height: 40px;
+}
+
+.redes-sociales .linkedin:hover{
+    background: #0077b5;
+}
+.redes-sociales .git:hover{
+    background: #000000;
+}
+.redes-sociales .ubicacion:hover{
+    background: #bbbb00;
+}
+.redes-sociales .telefono:hover{
+    background: #25d366;
+}
+.redes-sociales .mail:hover{
+    background: #dd4b39;
+}
 /* media query */
 /* dispositivo movil */
-@media screen and (max-width: 480px){
-    header .logo h2{
-        font-size: 20px;
+@media screen and (max-width: 576px){
+    .redes-sociales .icono{
+        width: 70px;
+        height: 70px;
+        margin: 10px 10px;
+        align-items: center;
     }
-    header .logo p{
-        font-size: 12px;
-    }
-    header .logo .icono{
-        font-size: 20px;
-    }
-    header .menu .C1{background: #3da5e2;}
-    header .menu .C2{background: #005385;}
-    header .menu .C3{background: #003855;}
-    header .menu .C1:hover {background: #1ba0ef;}
-    header .menu .C2:hover {background: #00426a;}
-    header .menu .C3:hover {background: #002d44;}
 }
 
 /* Dispositivo md */
