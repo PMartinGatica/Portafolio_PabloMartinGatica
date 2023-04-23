@@ -46,7 +46,7 @@ PORTAFOLIO  */
     font-weight: 400;
 }
 .portafolio .galeria .contenedor-imagen{
-    max-height: 180px;
+    max-height: 500px;
     overflow: hidden;
 }
 .portafolio .galeria .contenedor-imagen a{
